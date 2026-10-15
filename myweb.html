@@ -1,0 +1,746 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
+
+    <title>FeelReach by HR Creations</title>
+
+
+    <!-- =========================
+         GOOGLE FONTS
+    ========================== -->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;1,400;1,500&family=Poppins:wght@300;400;500;600&display=swap"
+        rel="stylesheet"
+    >
+
+
+    <!-- =========================
+         CSS
+    ========================== -->
+
+    <link
+        rel="stylesheet"
+        href="web.css"
+    >
+
+</head>
+
+
+<body>
+
+
+    <!-- =========================
+         HEADER
+    ========================== -->
+
+    <header class="site-header">
+
+
+        <!-- HAMBURGER (mobile only) -->
+
+        <button
+            type="button"
+            class="hamburger-btn"
+            id="hamburgerBtn"
+            aria-label="Menu"
+        >
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
+
+
+        <!-- LOGO -->
+
+        <div class="logo-block">
+
+            <img
+                src="hrlogo.png"
+                alt="HR Creations Logo"
+                class="logo-image"
+            >
+
+            <span class="logo-divider"></span>
+
+            <span class="logo-tagline">
+                Crafting Luxury
+            </span>
+
+        </div>
+
+
+        <!-- NAVIGATION -->
+
+        <nav class="main-nav">
+
+            <!-- HOME -->
+
+            <a
+                href="myweb.html"
+                class="active"
+            >
+                Home
+            </a>
+
+
+            <!-- OUR WALLETS - PENDING -->
+
+            <a href="#">
+                Our Collection
+            </a>
+
+
+            <!-- ABOUT US -->
+
+            <a href="about.html">
+                About Us
+            </a>
+
+
+            <!-- FAQ -->
+
+            <a href="faq.html">
+                FAQ
+            </a>
+
+        </nav>
+
+
+        <!-- HEADER ICON -->
+
+        <div class="header-icons">
+
+            <button
+                type="button"
+                aria-label="Cart"
+                id="cartButton"
+            >
+
+                <svg
+                    width="18"
+                    height="18"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                >
+
+                    <path d="M6 8h12l-1 12H7L6 8z"></path>
+
+                    <path d="M9 8V6a3 3 0 0 1 6 0v2"></path>
+
+                </svg>
+
+            </button>
+
+        </div>
+
+    </header>
+
+
+
+    <!-- =========================
+         MOBILE SIDEBAR
+    ========================== -->
+
+    <div
+        class="mobile-sidebar"
+        id="mobileSidebar"
+    >
+
+        <button
+            type="button"
+            class="sidebar-close"
+            id="sidebarClose"
+            aria-label="Close menu"
+        >
+            &times;
+        </button>
+
+
+        <nav class="sidebar-nav">
+
+
+            <!-- HOME -->
+
+            <a
+                href="myweb.html"
+                class="active"
+            >
+                Home
+            </a>
+
+
+            <!-- OUR WALLETS - PENDING -->
+
+            <a href="#">
+                Our Collection
+            </a>
+
+
+            <!-- ABOUT US -->
+
+            <a href="about.html">
+                About Us
+            </a>
+
+
+            <!-- FAQ -->
+
+            <a href="faq.html">
+                FAQ
+            </a>
+
+
+        </nav>
+
+    </div>
+
+
+    <div
+        class="sidebar-overlay"
+        id="sidebarOverlay"
+    ></div>
+
+
+
+    <!-- =========================
+         HERO
+    ========================== -->
+
+    <section class="hero">
+
+
+        <!-- HERO IMAGE -->
+
+        <img
+            src="wallet.jpeg"
+            alt="FeelReach Customized Leather Wallet"
+            class="hero-image"
+        >
+
+      <!-- SECOND IMAGE BELOW HERO IMAGE -->
+
+        <img
+            src="extend.jpg"
+            alt="FeelReach leather craftsmanship banner"
+            class="hero-second-image"
+        >
+
+
+        <!-- DARK OVERLAY -->
+
+        <div class="hero-overlay"></div>
+
+
+        <!-- =========================
+             HERO CONTENT
+        ========================== -->
+
+        <div class="hero-content">
+
+
+            <!-- EYEBROW -->
+
+            <p class="eyebrow">
+                Custom Leather Wallets
+            </p>
+
+
+            <!-- BRAND NAME -->
+
+            <h1>
+                Feel Rich
+            </h1>
+
+
+            <!-- COMPANY -->
+
+            <p class="by-line">
+                by HR Creations
+            </p>
+
+
+            <!-- DIVIDER -->
+
+            <div class="divider"></div>
+
+
+            <!-- SUBHEADLINE -->
+
+            <p class="subheadline">
+
+                More than just a wallet,<br>
+
+                <em>
+                    it's a reflection of you.
+                </em>
+
+            </p>
+
+
+            <!-- DESCRIPTION -->
+
+            <p class="description">
+
+                Premium leather. Thoughtful design. Fully customised.<br>
+
+                Because your essentials deserve more.
+
+            </p>
+
+
+            <!-- CTA BUTTON -->
+
+            <button
+                type="button"
+                id="designButton"
+                onclick="window.location.href='FILLING_FORM/purpose.html'"
+            >
+
+                Design Your Wallet
+
+                <span class="arrow">
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+                        <path d="M5 12h14M13 6l6 6-6 6" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+                </span>
+
+            </button>
+
+        </div>
+
+
+
+        <!-- =========================
+             BOTTOM BADGES
+        ========================== -->
+
+        <div class="hero-badges">
+
+            <span>
+                Premium Leather
+            </span>
+
+            <span class="sep">
+                /
+            </span>
+
+            <span>
+                Custom Made
+            </span>
+
+            <span class="sep">
+                /
+            </span>
+
+            <span>
+                Timeless Style
+            </span>
+
+        </div>
+
+
+    </section>
+
+  <!-- =========================
+     PRODUCTS — HORIZONTAL SCROLL
+========================== -->
+
+<section class="products-section">
+
+    <h2 class="products-title">
+        Our Collection
+    </h2>
+
+    <div class="divider products-divider"></div>
+
+
+    <div class="products-scroll">
+
+
+        <!-- PRODUCT CARD 1 -->
+
+        <a href="#" class="product-card">
+            <div class="product-img-wrap">
+                <img src="product1.jpg" alt="Classic Bifold Wallet" class="product-img">
+            </div>
+            <p class="product-name">
+                [ Product 1 Name ]
+            </p>
+            <p class="product-price">
+                [ ₹ Price ]
+            </p>
+        </a>
+
+
+        <!-- PRODUCT CARD 2 -->
+
+        <a href="#" class="product-card">
+            <div class="product-img-wrap">
+                <img src="product2.jpg" alt="Card Holder" class="product-img">
+            </div>
+            <p class="product-name">
+                [ Product 2 Name ]
+            </p>
+            <p class="product-price">
+                [ ₹ Price ]
+            </p>
+        </a>
+
+
+        <!-- PRODUCT CARD 3 -->
+
+        <a href="#" class="product-card">
+            <div class="product-img-wrap">
+                <img src="product3.jpg" alt="Zip Wallet" class="product-img">
+            </div>
+            <p class="product-name">
+                [ Product 3 Name ]
+            </p>
+            <p class="product-price">
+                [ ₹ Price ]
+            </p>
+        </a>
+
+
+        <!-- PRODUCT CARD 4 -->
+
+        <a href="#" class="product-card">
+            <div class="product-img-wrap">
+                <img src="product4.jpg" alt="Slim Wallet" class="product-img">
+            </div>
+            <p class="product-name">
+                [ Product 4 Name ]
+            </p>
+            <p class="product-price">
+                [ ₹ Price ]
+            </p>
+        </a>
+
+
+        <!-- PRODUCT CARD 5 -->
+
+        <a href="#" class="product-card">
+            <div class="product-img-wrap">
+                <img src="product5.jpg" alt="Travel Wallet" class="product-img">
+            </div>
+            <p class="product-name">
+                [ Product 5 Name ]
+            </p>
+            <p class="product-price">
+                [ ₹ Price ]
+            </p>
+        </a>
+
+
+        <!-- CARD 6 — VIEW ALL -->
+
+        <a href="all-products.html" class="product-card product-card-more">
+            <div class="product-more-circle">
+                <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2">
+                    <path d="M12 5v14M5 12h14" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+            </div>
+            <p class="product-more-text">
+                View All
+            </p>
+        </a>
+
+
+    </div>
+
+</section>
+
+  <!-- =========================
+     WHY CHOOSE US
+========================== -->
+
+<section class="why-section">
+
+    <h2 class="section-title">
+        The Feel Rich Promise
+    </h2>
+
+    <div class="divider why-divider"></div>
+
+
+    <div class="why-grid">
+
+        <div class="why-card">
+            <div class="why-icon">
+                <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8">
+                    <path d="M12 2l8 4v6c0 5-3.5 8.5-8 10-4.5-1.5-8-5-8-10V6l8-4z" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+            </div>
+            <p class="why-title">
+                Premium Leather
+            </p>
+            <p class="why-text">
+                Sourced from the finest hides, built to age beautifully.
+            </p>
+        </div>
+
+        <div class="why-card">
+            <div class="why-icon">
+                <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8">
+                    <path d="M12 20s-7-4.35-9.5-8.5C1 8 2.5 4.5 6 4.5c2 0 3.5 1.2 4.5 2.5 1-1.3 2.5-2.5 4.5-2.5 3.5 0 5 3.5 3.5 7-2.5 4.15-9.5 8.5-9.5 8.5z" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+            </div>
+            <p class="why-title">
+                Handcrafted
+            </p>
+            <p class="why-text">
+                Each wallet is made by skilled artisans, by hand.
+            </p>
+        </div>
+
+        <div class="why-card">
+            <div class="why-icon">
+                <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8">
+                    <path d="M4 13l5 5L20 7" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+            </div>
+            <p class="why-title">
+                Fully Customised
+            </p>
+            <p class="why-text">
+                Designed to your exact preferences, made just for you.
+            </p>
+        </div>
+
+        <div class="why-card">
+            <div class="why-icon">
+                <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8">
+                    <circle cx="12" cy="12" r="9"/>
+                    <path d="M12 7v5l3.5 2" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+            </div>
+            <p class="why-title">
+                Built to Last
+            </p>
+            <p class="why-text">
+                Durable craftsmanship that stands the test of time.
+            </p>
+        </div>
+
+    </div>
+
+</section>
+
+
+
+<!-- =========================
+     YOUR DESIGN JOURNEY
+========================== -->
+
+<section class="journey-section">
+
+    <h2 class="section-title journey-title">
+        Your Design Journey
+    </h2>
+
+    <div class="divider why-divider journey-divider"></div>
+
+
+    <div class="journey-steps">
+
+
+        <!-- STEP 1 -->
+
+        <div class="journey-step">
+
+            <p class="journey-label">
+                One
+            </p>
+
+            <h3 class="journey-step-title">
+                Share Your Design
+            </h3>
+
+            <p class="journey-step-text">
+                Fill the form with your purpose, style and preferences.
+            </p>
+        </div>
+
+
+        <!-- STEP 2 -->
+
+        <div class="journey-step">
+
+            <p class="journey-label">
+                Two
+            </p>
+
+            <h3 class="journey-step-title">
+                Design Preview
+            </h3>
+
+            <p class="journey-step-text">
+                We send a paper mockup and a leather sample for your approval.
+            </p>
+        </div>
+
+
+        <!-- STEP 3 -->
+
+        <div class="journey-step">
+
+            <p class="journey-label">
+                Three
+            </p>
+
+            <h3 class="journey-step-title">
+                Handcrafted for You
+            </h3>
+
+            <p class="journey-step-text">
+                Our artisans craft your wallet exactly to your approved design.
+            </p>
+        </div>
+
+
+        <!-- STEP 4 -->
+
+        <div class="journey-step">
+
+            <p class="journey-label">
+                Four
+            </p>
+
+            <h3 class="journey-step-title">
+                Packaged &amp; Delivered
+            </h3>
+
+            <p class="journey-step-text">
+                Wrapped in premium packaging and delivered to your doorstep.
+            </p>
+        </div>
+
+
+    </div>
+
+</section>
+
+
+  <!-- =========================
+     your design journey 2
+========================== -->
+
+<section class="bespoke-section">
+
+    <div class="bespoke-image-wrap">
+
+        <img
+            src="bespoke.jpg"
+            alt="The Bespoke Wallet"
+            class="bespoke-image"
+        >
+
+    </div>
+
+
+    <div class="bespoke-content">
+
+        <p class="bespoke-eyebrow">
+            Fully Custom &middot; Handcrafted To Order
+        </p>
+
+        <h2 class="bespoke-title">
+            The Bespoke Wallet
+        </h2>
+
+        <p class="bespoke-text">
+            Every detail, chosen by you. From the leather to the stitching,
+            we craft a wallet that's made entirely around your preferences —
+            not off a shelf, but for you.
+        </p>
+
+
+        <div class="bespoke-accordion">
+
+            <div class="bespoke-row">
+                <button type="button" class="bespoke-toggle" onclick="journeyToggle(this)">
+                    What's Included
+                    <span class="journey-chevron">
+                        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M6 9l6 6 6-6" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                    </span>
+                </button>
+                <div class="bespoke-details">
+                    <p>
+                        [ Paper mockup preview, leather sample, fully handcrafted wallet, premium packaging ]
+                    </p>
+                </div>
+            </div>
+
+            <div class="bespoke-row">
+                <button type="button" class="bespoke-toggle" onclick="journeyToggle(this)">
+                    Timeline &amp; Process
+                    <span class="journey-chevron">
+                        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M6 9l6 6 6-6" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                    </span>
+                </button>
+                <div class="bespoke-details">
+                    <p>
+                        [ Design → Preview & Approve → Handcrafted → Delivered, takes X-Y days ]
+                    </p>
+                </div>
+            </div>
+
+            <div class="bespoke-row">
+                <button type="button" class="bespoke-toggle" onclick="journeyToggle(this)">
+                    Pricing
+                    <span class="journey-chevron">
+                        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M6 9l6 6 6-6" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                    </span>
+                </button>
+                <div class="bespoke-details">
+                    <p>
+                        [ Starting from ₹X, varies by leather and customisation ]
+                    </p>
+                </div>
+            </div>
+
+        </div>
+
+
+        <button
+            type="button"
+            class="bespoke-enquire"
+            onclick="window.location.href='FILLING_FORM/purpose.html'"
+        >
+            Enquire
+        </button>
+
+    </div>
+
+</section>
+  
+
+    <!-- =========================
+         JAVASCRIPT
+    ========================== -->
+
+    <script src="web.js"></script>
+
+
+</body>
+
+</html>
